@@ -8,4 +8,6 @@ java \
   -jar checkstyle-5.7-all.jar \
   -f xml \
   -c ./checkstyle_checks.xml \
-  -r ../src
+  -r ../src \
+  > output.xml
+  

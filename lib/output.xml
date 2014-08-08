@@ -201,6 +201,45 @@
 <error line="99" severity="error" message="block child at indentation level 8 not at correct indentation, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="100" severity="error" message="block child at indentation level 8 not at correct indentation, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
+<file name="/Users/jurgenv/Workspaces/Rascal/java-checkstyle-tests/lib/../src/imports/AvoidStarImports.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="1" severity="error" message="Line does not match expected header line of &apos;This is a header&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="1" column="9" severity="error" message="Import control file does not handle this package." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck"/>
+<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="31" severity="error" message="&apos;{&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+</file>
+<file name="/Users/jurgenv/Workspaces/Rascal/java-checkstyle-tests/lib/../src/imports/AvoidStaticImport.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;This is a header&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="1" column="9" severity="error" message="Import control file does not handle this package." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck"/>
+<error line="3" column="15" severity="error" message="Unused import - java.lang.Math.PI." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="32" severity="error" message="&apos;{&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="6" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="6" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="6" column="12" severity="error" message="Name &apos;myPI&apos; must match pattern &apos;^m[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="6" column="12" severity="error" message="Variable &apos;myPI&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+</file>
+<file name="/Users/jurgenv/Workspaces/Rascal/java-checkstyle-tests/lib/../src/imports/IllegalImport.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;This is a header&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="1" column="9" severity="error" message="Import control file does not handle this package." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck"/>
+<error line="3" column="1" severity="error" message="Import from illegal package - sun.applet.AppletAudioClip." source="com.puppycrawl.tools.checkstyle.checks.imports.IllegalImportCheck"/>
+<error line="3" column="8" severity="error" message="Unused import - sun.applet.AppletAudioClip." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="28" severity="error" message="&apos;{&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+</file>
+<file name="/Users/jurgenv/Workspaces/Rascal/java-checkstyle-tests/lib/../src/imports/RedundantImport.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;This is a header&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="1" column="9" severity="error" message="Import control file does not handle this package." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck"/>
+<error line="3" column="1" severity="error" message="Redundant import from the java.lang package - java.lang.String." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="3" column="8" severity="error" message="Unused import - java.lang.String." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" column="1" severity="error" message="Redundant import from the same package - imports.AvoidStarImports." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="5" column="8" severity="error" message="Unused import - imports.AvoidStarImports." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="7" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" column="30" severity="error" message="&apos;{&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="8" severity="error" message="Line matches the illegal pattern &apos;\s+$&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="8" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
 <file name="/Users/jurgenv/Workspaces/Rascal/java-checkstyle-tests/lib/../src/metrics/BooleanExpressionComplexity.java">
 <error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="1" severity="error" message="Line does not match expected header line of &apos;This is a header&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
