@@ -60,6 +60,18 @@ public class BlockChecks {
 	{
 	}
 	
+	void ifNoBraces1(int n){
+		if(n > 0)
+			System.err.println("ifNoBraces1");
+	}
+	
+	void ifNoBraces2(int n){
+		if(n > 0)
+			System.err.println("ifNoBraces2a");
+		else
+			System.err.println("ifNoBraces2b");
+	}
+	
 	void avoidNestedBlocks(){
 		int n = 0;
 		{n = 1;} 

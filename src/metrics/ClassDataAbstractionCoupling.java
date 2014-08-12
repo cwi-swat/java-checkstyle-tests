@@ -9,6 +9,11 @@ public class ClassDataAbstractionCoupling {
 	F f= new F();
 	G g = new G();
 	H h = new H();
+	
+	Boolean t = new Boolean(true);
+	Integer i = new Integer(1);
+	String s = "abc";
+	Object o = new Object();
 }
 
 class A { int n; A() { n = 0; } }

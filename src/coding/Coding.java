@@ -6,6 +6,11 @@ public class Coding {
 	void avoidInlineConditionals1(int n){
 		int m = n > 0 ? n : - n;
 	}
+	
+	void avoidInlineConditionals2(int n){
+		int m = 0;
+		m = n > 0 ? n : - n;
+	}
 
 	void magicNumber(){
 		int n = 17;
@@ -61,10 +66,10 @@ public class Coding {
 		} catch(Exception e){System.err.println(e);}
 	}
 	
-//	@Override
-//	public Coding clone(){
-//		return this;
-//	}
+	@Override
+	public Coding clone(){
+		return this;
+	}
 	
 	void finalizer(){
 	}
