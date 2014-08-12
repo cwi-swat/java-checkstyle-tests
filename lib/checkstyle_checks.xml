@@ -14,6 +14,8 @@
 
   <metadata name="com.atlas-sw.eclipse" value="I like Sydney"/>
 
+ <!-- missing: "AbstractClassName","AvoidInlineConditionals","AvoidStaticImport","BooleanExpressionComplexity","ClassFanOutComplexity","CyclomaticComplexity","DefaultComesLast","ExecutableStatementCount","FallThrough","MethodTypeParameterName","MultipleStringLiterals","NPathComplexity","NestedBlock","NestedForDepth","NestedTryDepth","NoFinalizer","ReturnCount","ThrowsCount","UnCommentedMain" -->
+
   <property name="severity" value="error"/>
 
   <module name="SuppressionFilter">
@@ -31,7 +33,6 @@
   <module name="FileTabCharacter">
     <property name="eachLine" value="false"/>
   </module>
-
   <module name="FileLength">
     <property name="fileExtensions" value="java"/>
   </module>
